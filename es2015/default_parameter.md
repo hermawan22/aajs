@@ -27,7 +27,9 @@ undefined
 2
 ```
 
-Pada contoh diatas, hanya untuk memberikan nilai default pada parameter kita perlu melakukan beberapa langkah.  
+Pada contoh diatas, parameter **a** bernilai **undefined** dan **b** bernilai **2** walaupun pada pemanggilan fungsi **contoh** kita tidak memberikan nilai apapun kepada kedua parameternya.
+
+Jika diperhatikan hanya untuk memberikan nilai default pada parameter kita perlu melakukan beberapa langkah.  
 Eits, tenang.. di es2015 hal tersebut di optimasi lagi agar lebih efisien dan mudah untuk memberikan nilai default kepada parameter.
 
 Dibawah ini adalah code yang sama, yg ditulis dengan es2015 untuk memberikan nilai **default parameter** dan menghasilkan output yang sama.
